@@ -25,7 +25,7 @@ def main():
         "-t", "--target", default="USD", help="Введите код целевой валюты"
     )
     parser.add_argument(
-        "-a", "--amount", type=float, default=1000, help="Введите количество валюты"
+        "-a", "--amount", type=float, default=10000, help="Введите количество валюты"
     )
     args = parser.parse_args()
     base_code = args.base.strip().upper()
